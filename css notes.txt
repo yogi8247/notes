@@ -1,0 +1,29 @@
+types of css:
+1)external css:
+...all the css properties are defined in seperate .css fiel and then imported into html file 
+using <link>.
+...Once .css file is applicable to n number of html files using <link>
+
+2)internal css:
+	css properties are defined in the same html file using <style>....</style>
+	
+3)inline css:
+	wants to apply purple color to first paragraph tag 
+	css properties are applicable to single tag using style attribute
+	<tagname 
+		 style="csspropertyname:value;cssproperty2:value">
+	--ex:
+		<p style="color:red;border:groove;">text</p>
+-->>we can use all in html document.
+---------------------------------------------------------------------------------------------
+selector
+Syntax={csspropertyname:value;cssproperty2:value;css3:vlaue;}
+h1{color:green;border:dotted;}
+p{background-color:black;color:white;}
+LINK tag:
+	<link rel="file name" href="addres.css">
+
+::::::internal::::::
+	if we want to import before then use style in head or otherwise use in body
+	
+
