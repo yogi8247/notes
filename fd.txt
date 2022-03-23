@@ -1,0 +1,5 @@
+JDBC connectivity
+DataBase: oracle 10g
+Programming language:Java
+IDE tool:Netbeans or Ecllipse
+Driver(DB connection):Type-4(Thin Driver)
