@@ -1,0 +1,25 @@
+prepared statements
+--- write the parameterized query
+---to supply input dynamically for the insert/delet/update/
+
+
+
+synatx:
+	PreparedStatement ps=connection_object.prepareStatement("Sql Query");
+ 	
+
+
+PreparedStatement ps=con.preparedStatement("insert into emp values(?,?,?)");
+or
+String sql=insert into emp values(?,?,?);
+PreparedStatement ps=con.preparedStatement("sql");
+//set the values
+object_preparedStatement.setDataType(columnIndex,value);
+
+ps.setInt(1,1234);
+or
+ps.setInt(1,empno);//Empno-read from the user input
+ps.setInt(3,age);//age value is set to column index 3
+ps.setString(2,ename);
+//Execute Qurery/executeUpdate
+ps.executeUpdate();
